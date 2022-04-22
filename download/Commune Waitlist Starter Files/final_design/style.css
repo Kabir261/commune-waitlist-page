@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #f6f9fe;
+  
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1200px;
+  width: 80%;
+  margin: auto;
+}
+
+.my-1 {
+  margin-top: 3rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  list-style: none;
+}
+
+.hamburger{
+    display: none;
+}
+
+.links-nav {
+  text-decoration: none;
+  margin-right: 1.2rem;
+  font-size: 1.2rem;
+  color: #595959;
+  font-weight: 500;
+}
+
+.active {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #ffffff;
+  border: 2px solid #372865;
+  background-color: #372865;
+  padding: 1rem;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.hero-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #353252;
+  margin: 1rem 0;
+}
+.hero-small-heading {
+  background-color: #372865;
+  color: #d0c5e9;
+  width: 450px;
+  padding: 0.5rem 1rem;
+  border-radius: 30px;
+}
+.heading-link {
+  color: #d0c5e9;
+  font-size: 1.1rem;
+}
+.hero-text {
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.home-input {
+  width: 400px;
+  font-size: 1.2rem;
+  padding: 1.2rem;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 2px solid #c5c7cc;
+  color: #cfd0d2;
+}
+
+.image {
+  width: 350px;
+}
+
+.footer{
+    margin-top: 1.5rem;
+}
+.footer-text{
+    margin-bottom: 10px;
+    font-weight: 700;
+}
